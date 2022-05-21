@@ -4,14 +4,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <ol>
-        <li><b>Nombre:</b> Notebook</li>
-        <li><b>Descripcion:</b> HP Proliant 14.5</li>
-        <li><b>Precio:</b> $ 145.000,00</li>
-        <li><b>SKU:</b> HPLA31562</li>
-        <li><b>Cant. Disponible:</b> 8</li>
-      </ol>
-      {/* 
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -26,7 +18,6 @@ function App() {
             Learn React
           </a>
         </header>
-      */}
     </div>
   );
 }
