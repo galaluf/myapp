@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './Home';
+import Home from './Home';
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <li><b>SKU:</b> HPLA31562</li>
         <li><b>Cant. Disponible:</b> 8</li>
       </ol>
+    <Home />
       {/* 
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
